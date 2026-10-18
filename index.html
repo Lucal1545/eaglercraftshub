@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#07101f">
+<meta name="description" content="EaglersCraft — tarayıcıdan oynanan, Minecraft 1.8 tabanlı ve 26.2 hissi veren oyun deneyimi.">
+<title>EaglersCraft | Türk Yapımcı</title>
+<style>
+:root{--blue:#168dff;--cyan:#39c4ff;--bg:#060c17;--text:#f5f8ff;--muted:#b7c5d9}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,system-ui,-apple-system,"Segoe UI",Arial,sans-serif}
+a{color:inherit;text-decoration:none}.topbar{min-height:76px;display:flex;align-items:center;justify-content:space-between;gap:20px;padding:14px 4.5%;background:#080f1d;border-bottom:1px solid #20334b;position:relative;z-index:2}
+.brand{display:flex;align-items:center;gap:13px;font-size:clamp(18px,2.2vw,27px);font-weight:900;letter-spacing:.5px}.eagle{width:42px;height:42px;border-radius:12px;display:grid;place-items:center;color:#fff;background:linear-gradient(135deg,#102b4a,#078cff);font-size:23px}
+.turk{font-size:14px;font-weight:900;letter-spacing:1.2px;white-space:nowrap}.flag{margin-right:8px}
+nav{display:flex;gap:26px;align-items:center;font-size:14px;font-weight:700;color:#d2dbea}nav a:hover,nav a.active{color:#59baff}
+.hero{min-height:630px;position:relative;display:flex;align-items:center;justify-content:center;text-align:center;padding:70px 20px 44px;background:radial-gradient(ellipse at 78% 38%,rgba(255,112,44,.32),transparent 32%),radial-gradient(ellipse at 18% 20%,rgba(15,91,65,.42),transparent 38%),linear-gradient(180deg,#10243a 0%,#091322 58%,#060c17 100%)}
+.hero-inner{width:min(100%,980px);position:relative;z-index:1}.eyebrow{color:#a9d9ff;font-weight:800;letter-spacing:3px;font-size:12px}.hero h1{font-size:clamp(42px,8vw,88px);line-height:.98;margin:15px 0 18px;font-weight:1000;letter-spacing:-3px;text-shadow:0 7px 25px #000}.hero h1 span{color:var(--blue)}.tagline{font-size:clamp(17px,2.4vw,25px);font-weight:750;margin:0 auto 16px}.version{color:#c3d2e7;font-size:18px;margin-bottom:30px}.version strong{color:#4bb9ff}.play{display:inline-flex;align-items:center;justify-content:center;gap:14px;min-width:245px;padding:17px 42px;border:2px solid #50caff;border-radius:17px;background:linear-gradient(135deg,#19a9ff,#0063ed);box-shadow:0 0 32px #008dff55;font-size:27px;font-weight:950;transition:transform .2s,filter .2s}.play:hover{transform:translateY(-3px);filter:brightness(1.12)}.play small{font-size:21px}
+.features{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;max-width:1120px;margin:0 auto;padding:0 24px 36px}.feature{text-align:center;padding:14px 10px}.feature .ico{font-size:30px;color:#139bff}.feature h3{font-size:14px;margin:10px 0 8px}.feature p{color:var(--muted);font-size:14px;line-height:1.6;margin:0 auto;max-width:220px}
+section.info{border-top:1px solid #1b2d43;text-align:center;padding:34px 20px 44px;background:linear-gradient(180deg,#08111f,#060b14)}.section-title{font-size:28px;font-weight:950;font-style:italic;margin:0 0 12px}.desc{color:var(--muted);max-width:660px;line-height:1.7;margin:0 auto 22px}.modes{display:flex;flex-wrap:wrap;justify-content:center;gap:0;color:#b9c8dd}.modes span{padding:8px 18px;border-right:1px solid #30445d}.modes span:last-child{border:0}
+footer{border-top:1px solid #1b2d43;padding:22px;text-align:center;color:#b7c6db;font-size:13px}footer strong{color:#fff}
+@media(max-width:850px){.topbar{flex-wrap:wrap;justify-content:center}.brand{margin-right:auto}nav{order:3;width:100%;justify-content:center;gap:18px;flex-wrap:wrap}.turk{margin-left:auto}.hero{min-height:570px}.features{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:480px){.topbar{padding:12px 16px}.brand{font-size:18px}.eagle{width:35px;height:35px}nav{gap:14px;font-size:12px}.turk{font-size:11px}.hero{padding-top:55px;min-height:550px}.hero h1{letter-spacing:-1.5px}.play{min-width:210px;padding:15px 28px}.features{padding-left:12px;padding-right:12px;gap:8px}.feature p{font-size:12px}.modes span{padding:8px 10px;font-size:13px}}
+</style>
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#ana-sayfa" aria-label="EaglersCraft ana sayfa"><span class="eagle">➤</span><span>EAGLERSCRAFT</span></a>
+  <div class="turk"><span class="flag">🇹🇷</span>TÜRK YAPIMCI</div>
+  <nav aria-label="Ana menü">
+    <a class="active" href="#ana-sayfa">Ana Sayfa</a>
+    <a href="#hakkimizda">Hakkımızda</a>
+    <a href="#ozellikler">Özellikler</a>
+    <a href="#iletisim">İletişim</a>
+  </nav>
+</header>
+<main>
+<section class="hero" id="ana-sayfa">
+  <div class="hero-inner">
+    <div class="eyebrow">TÜRK OYUN TOPLULUĞU</div>
+    <h1>EAGLERS<span>CRAFT</span></h1>
+    <p class="tagline">Tarayıcıdan Oyna, Minecraft Keyfini Yaşa!</p>
+    <p class="version">🎮 &nbsp;26.2 hissi veren <strong>1.8</strong> Minecraft deneyimi</p>
+    <a class="play" href="https://client.eaglercraft.win/eagler-files/modded/1.8/EaglyMC/index.html" target="_blank" rel="noopener noreferrer"><small>▶</small> OYNA</a>
+  </div>
+</section>
+<section class="features" id="ozellikler" aria-label="Oyun özellikleri">
+  <article class="feature"><div class="ico">◎</div><h3>TARAYICIDAN OYNA</h3><p>İndirmeye gerek yok. Tarayıcını aç ve oynamaya başla.</p></article>
+  <article class="feature"><div class="ico">ϟ</div><h3>1.8 SÜRÜMÜ</h3><p>Efsanevi 1.8 deneyimi, 26.2 hissiyle.</p></article>
+  <article class="feature"><div class="ico">⬡</div><h3>MODLU DENEYİM</h3><p>Farklı özelliklerle oyun keyfini keşfet.</p></article>
+  <article class="feature"><div class="ico">♟</div><h3>OYUN KEYFİ</h3><p>Macerana hemen başla, eğlenceye katıl.</p></article>
+</section>
+<section class="info" id="hakkimizda">
+  <h2 class="section-title">HIZLI BAKIŞ</h2>
+  <p class="desc">EaglersCraft, tarayıcı üzerinden oynanabilen, 1.8 sürümüne sahip özel modlu bir Minecraft deneyimidir. 26.2 hissiyle oyun keyfini yeniden yaşa!</p>
+  <div class="modes"><span>⚔️ Survival</span><span>⛏️ SkyBlock</span><span>★ Minigames</span><span>♟ Daha fazlası...</span></div>
+</section>
+</main>
+<footer id="iletisim"><strong>EaglersCraft</strong> &nbsp; | &nbsp; Türk Yapımcı</footer>
+</body>
+</html>
